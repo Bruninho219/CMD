@@ -20,12 +20,12 @@ cls
 goto menu
 
 :on
-rem "net stop " + nome_do_serviço
+rem "net stop " + nome_do_serviÃ§o
 net start MySQL57
 goto fim
 
 :off
-rem "net stop " + nome_do_serviço
+rem "net stop " + nome_do_serviÃ§o
 net stop MySQL57
 goto fim
 
@@ -34,7 +34,7 @@ pause
 @echo.
 @echo.
 echo Deseja sair?
-echo 0- Não 1- Sim
+echo 0- NÃ£o 1- Sim
 set/p "x=>"
 
 if %x%==0 goto main
